@@ -1,50 +1,64 @@
- *{
-        margin: 0;
-        padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-       }
-       main{
-        background-color: rgb(70, 70, 70);
-        position: absolute;
-        text-align: center;
-        padding: 50px;
-        border-radius: 10px;
-        top: 3%;
-        right: 36%;
-       }
-       input{
-        background-color: white;
-        border-radius: 5px;
-        height: 5vw;
-        width: 25vw;
-        border-color: rgb(0, 0, 0);
-        font-size: 30px;
-        
-       }
-       button{
-        font-size: 35px;
-        padding: 25px;
-        align-items: center;
-        border-radius: 30px;
-        background-color: rgb(141, 141, 141);
-        transition: 0.5s;  
-        border-color: rgb(141, 141, 141); 
-    }
-       button:hover{
-        background-color: rgb(75, 75, 75);
-           transition: 0.5s;
-           box-shadow: 2px 2px 2px #cccccc;
-                 
-       }   
-       body{
-        background-image: url(imagens/696278-texturizado-fundo-preto-gratis-vetor.jpg) ;
-       }
-       h1{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
+body {
+    background-image: url(imagens/696278-texturizado-fundo-preto-gratis-vetor.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-       }
-       main .igual{
-        background-color: rgb(0, 255, 157);
-        border-color: rgb(0,255,157);
-       }
+main {
+    background-color: rgba(70, 70, 70, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#display {
+    background-color: white;
+    border-radius: 5px;
+    height: 5vw;
+    width: 25vw;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+button {
+    font-size: 35px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #8d8d8d;
+    transition: 0.5s;
+    border: 1px solid #8d8d8d;
+    color: black;
+}
+
+button:hover {
+    background-color: #4b4b4b;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+
+button.igual {
+    background-color: rgb(0, 255, 157);
+    border-color: rgb(0, 255, 157);
+    color: black;
+}
