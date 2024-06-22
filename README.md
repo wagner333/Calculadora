@@ -1,4 +1,5 @@
 # Calculadora
 uma simples calculadora 
- ![image](https://github.com/wagner333/Calculadora/assets/144560716/0a0a8a75-8654-4ae3-80ec-98f3af5f3f90)
+ ![image](https://github.com/wagner333/Calculadora/assets/144560716/290e9669-f0db-45d3-a9ad-a9cfb0c389b3)
+
  
